@@ -11,3 +11,21 @@ h1 {
     font-size: 40pt;
     text-align: center;
 }
+
+#wakehurst {
+    text-align: center;
+}
+
+#wrapper1 {
+    background-color: grey;
+    padding: 10px;
+}
+
+#wrapper2 {
+    padding: 10px;
+    background-color: royalblue;
+}
+
+.left {
+    padding: 5px;
+}
