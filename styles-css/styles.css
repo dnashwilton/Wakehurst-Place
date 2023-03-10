@@ -16,14 +16,14 @@ h1 {
     text-align: center;
 }
 
-#wrapper1 {
-    background-color: lightgrey;
+.wrapper1 {
+    background-color: #a2ac94;
     padding: 10px;
 }
 
-#wrapper2 {
+.wrapper2 {
     padding: 10px;
-    background-color: royalblue;
+    background-color: #d4c9c1;
 }
 
 .left {
