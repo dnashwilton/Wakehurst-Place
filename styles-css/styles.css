@@ -50,3 +50,20 @@ span {
     color: blue;
     font-size: 13pt;    
 }
+
+nav {
+	padding: 1rem;
+}
+
+nav > a {
+	text-decoration: none;
+	color: royalblue;
+	margin: 1rem;
+    font-family: Old English Text MT, sans-serif;
+    font-size: 20pt;
+    text-align: center;
+}
+
+nav > a:hover {
+	color: silver;
+}
