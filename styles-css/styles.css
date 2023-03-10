@@ -3,13 +3,17 @@ body {
 }
 
 h2 {
-    font-family: Avenir Next LT Pro Demi bold;
+    font-family: Avenir Next LT Pro Demi bold, sans-serif;
 }
 
 h1 {
-    font-family: Old English Text MT;
+    font-family: Old English Text MT, sans-serif;
     font-size: 40pt;
     text-align: center;
+}
+
+p {
+    font-family: Calibri, sans-serif;
 }
 
 #wakehurst {
@@ -28,4 +32,10 @@ h1 {
 
 .left {
     padding: 5px;
+}
+.stables {
+    width: 50%;
+    float: right;
+    padding: 5px;
+    margin-top: -25px;
 }
