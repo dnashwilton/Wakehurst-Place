@@ -10,6 +10,7 @@ h1 {
     font-family: Old English Text MT, sans-serif;
     font-size: 40pt;
     text-align: center;
+    color: #3e4437;
 }
 
 p {
@@ -32,6 +33,7 @@ p {
 
 .left {
     padding: 5px;
+    z-index: -1;
 }
 .stables {
     width: 50%;
@@ -58,10 +60,11 @@ nav {
 nav > a {
 	text-decoration: none;
 	color: royalblue;
-	margin: 1rem;
+	margin: 2rem;
     font-family: Old English Text MT, sans-serif;
     font-size: 20pt;
     text-align: center;
+    color: #3e4437;
 }
 
 nav > a:hover {
@@ -71,6 +74,49 @@ nav > a:hover {
 .woodlands {
     background-color: royalblue;
     width: 75%;
-    padding: 5px;
+    padding: 15px;
     margin: 0 auto;
+    margin-top: -40px;
+    text-align: center;
+    z-index: 2;
+    background-color: #fff;
+}
+
+footer {
+	background-color: #6f4e37;
+	padding: 1em;
+	text-align: center;
+    width: 100%;
+    </*position: fixed;*/>
+    bottom: 0;
+    right: 0;
+	/*z-index: 3;*/
+}
+
+footer > span {
+	color: silver;
+}
+
+footer > a {
+	color: beige;
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 0.8rem;
+}
+
+footer > p {
+	color: silver;
+}
+
+/* map */
+#map-wrapper {
+
+    height: 300px;
+    margin-bottom: 107px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
 }
