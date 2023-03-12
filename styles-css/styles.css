@@ -59,7 +59,6 @@ nav {
 
 nav > a {
 	text-decoration: none;
-	color: royalblue;
 	margin: 2rem;
     font-family: Old English Text MT, sans-serif;
     font-size: 20pt;
@@ -69,25 +68,24 @@ nav > a {
 
 nav > a:hover {
 	color: silver;
+    background-color: #3e4437;
 }
 
 .woodlands {
-    background-color: royalblue;
+    background-color: #fff;    
     width: 75%;
     padding: 15px;
     margin: 0 auto;
     margin-top: -40px;
     text-align: center;
-    z-index: 2;
-    background-color: #fff;
 }
 
 footer {
-	background-color: #6f4e37;
+	background-color: #404c24;
 	padding: 1em;
 	text-align: center;
     width: 100%;
-    </*position: fixed;*/>
+    /*position: fixed;*/
     bottom: 0;
     right: 0;
 	/*z-index: 3;*/
