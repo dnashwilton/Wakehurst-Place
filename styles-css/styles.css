@@ -106,7 +106,7 @@ footer > p {
 	color: silver;
 }
 
-/* map */
+/* map 
 #map-wrapper {
 
     height: 300px;
@@ -117,4 +117,23 @@ footer > p {
     height: 100%;
     width: 100%;
     border: none;
+}
+*/
+
+#poem {
+    text-align: center;
+}
+
+#wakehurst-today {
+    margin: 20px;
+    padding: 35px;
+}
+
+#visiting-wakehurst {
+    background-color: #404c24;
+    padding: 20px;
+}
+
+.visiting {
+    text-align: center;
 }
